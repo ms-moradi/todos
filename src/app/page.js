@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Dashboard from '../component/dashboard/index.jsx'
 
 export default function Home() {
   return (
     <main >
-      <h1 className="">hello</h1>
+      <Dashboard/>
     </main>
   );
 }
