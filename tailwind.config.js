@@ -13,6 +13,7 @@ module.exports = {
       'light-Gray':'#A1ABA6',
       'dark-gray':'#616B65',
       'light-green':'#60C3A0',
+      'white':'#FFFFFF',
     },
     fontFamily:{
 
