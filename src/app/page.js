@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Dashboard from '../component/dashboard/index.jsx'
+import LayoutPage from "@/component/layoutPage";
 
 export default function Home() {
   return (
     <main >
-      <Dashboard/>
+      <LayoutPage/>
     </main>
   );
 }
