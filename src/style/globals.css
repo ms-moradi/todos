@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+#main-bg{
+    background-image: linear-gradient(
+        #B2D6C7 0%,
+        #B2D6C7 40%,
+        #EBF1F2 40%,
+        #EBF1F2 100%
+    )
+}
+    
