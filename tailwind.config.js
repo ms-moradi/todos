@@ -12,14 +12,16 @@ module.exports = {
       'pale-green':'#70A68E',
       'light-Gray':'#A1ABA6',
       'dark-gray':'#616B65',
-      'light-green':'#60C3A0',
+      'green':'#60C3A0',
+      'light-green':'#B2D6C7',
       'white':'#FFFFFF',
+  
     },
     fontFamily:{
 
     },
     extend: {
-     
+      
     },
   },
   plugins: [],
