@@ -12,12 +12,12 @@ module.exports = {
       'dark-green':'#377551',
       'pale-green':'#70A68E',
       'light-gray':'#E1E4E2',
+      'very-light-green':'#85B9A0',
       'gray':'#A1ABA6',
       'dark-gray':'#616B65',
       'green':'#60C3A0',
       'light-green':'#B2D6C7',
       'white':'#FFFFFF',
-  
     },
     fontFamily:{
 
