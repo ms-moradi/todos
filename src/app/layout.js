@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="w-full h-screen flex ">
         <Dashboard/>
-        <div id="main-bg" className="w-full h-screen ">
+        <div id="main-bg" className="w-full h-screen  overflow-x-scroll">
           {children}
         </div>
       </body>
