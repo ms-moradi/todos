@@ -1,5 +1,5 @@
 
-import Dashboard from "@/component/dashboard";
+import DashboardCom from "@/component/dashboardCom";
 import "./../style/globals.css";
 
 
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="w-full h-screen flex ">
-        <Dashboard/>
+        <DashboardCom/>
         <div id="main-bg" className="w-full h-screen  overflow-x-scroll">
           {children}
         </div>
