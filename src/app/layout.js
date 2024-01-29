@@ -1,9 +1,5 @@
 
-import DashboardCom from "@/component/dashboardCom";
 import "./../style/globals.css";
-
-
-
 
 export const metadata = {
   title: "Create Next App",
@@ -13,11 +9,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="w-full h-screen flex ">
-        <DashboardCom/>
-        <div id="main-bg" className="w-full h-screen  overflow-x-scroll">
-          {children}
-        </div>
+      <body>
+        {children}
       </body>
     </html>
   );
