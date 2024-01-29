@@ -10,12 +10,12 @@ import { FaRegEdit } from "react-icons/fa";
 
 const Navbar = ()=>{
     return(
-        <div className="w-full py-2 mt-2 mb-10 flex justify-between items-center">
+        <div className="w-full py-2 mt-1 mb-8 flex justify-between items-center">
             <div className="flex gap-6">
                 <div className="min-w-10 flex items-center gap-6  bg-pale-green text-bone-white pl-6 pr-4 py-3 rounded-md">
                     <h3>show : </h3>
-                    <select className=" text-bone-white bg-pale-green outline-none px-1"> 
-                        <option value={"all"}>All</option>
+                    <select className=" text-bone-white bg-pale-green outline-none"> 
+                        <option value={"all"} className="mt-2">All</option>
                         <option value={"done"}>Done</option>
                         <option value={"undone"}>Undone</option>
                     </select>
