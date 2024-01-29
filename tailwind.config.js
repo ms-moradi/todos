@@ -18,6 +18,8 @@ module.exports = {
       'green':'#60C3A0',
       'light-green':'#B2D6C7',
       'white':'#FFFFFF',
+      'beige':'#FABF8B',
+      'orange':'#FF7051',
     },
     fontFamily:{
 
